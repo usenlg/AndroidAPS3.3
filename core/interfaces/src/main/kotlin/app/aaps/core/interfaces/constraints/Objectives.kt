@@ -16,12 +16,8 @@ interface Objectives {
         const val DYN_ISF_OBJECTIVE = 10
     }
 
-    @Override
-	public boolean isAccomplished() {
-		return true; 
-	}
-	@Override
-    public boolean isStarted(){
-		return true; 
-	}
+    Override fun isAccomplished(index: Int): Boolean{
+	    return true
+    }
+    fun isStarted(index: Int): Boolean
 }
