@@ -15,6 +15,6 @@ interface Objectives {
         const val AUTO_OBJECTIVE = 9
     }
 
-    fun isAccomplished(index: Int): Boolean
+    fun isAccomplished(index: Int): Boolean { return true }
     fun isStarted(index: Int): Boolean
 }
